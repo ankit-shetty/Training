@@ -1,0 +1,215 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+#mainbodyadd{
+	background-color: black;
+	width: 100%;
+	display: flex;
+}
+#header{
+    float: none;
+    font: bold 40px Lobster;
+    background-color: #E5C500;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    height: 100px;
+}
+.mainimage{
+    width: 100px;
+}
+#para1{
+    font-size: 28px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    color: black;
+}
+#heading{
+	margin-left: 50px;
+	margin-top: 100px;
+	position: absolute;
+}
+#middlesec{
+	margin-left: 50px;
+	margin-top: 100px;
+	display: flex;
+	position: absolute;
+}
+.dropbtn {
+    background-color: #000000;
+    color: #E5C500;
+    padding: 10px;
+    font-size: 20px;
+	margin-left: 950px;
+	margin-top: 20px;
+    border: 2px solid #FFD700;
+	border-radius: 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	left: 900px;
+    background-color: #000000;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border: 2px solid #FFD700;
+	border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: #E5C500;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #FFD700}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+input[type=text], select {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#middlename{
+	width: 100%;
+	margin-left: 50px;
+	margin-top: 150px;
+	display: flex;
+	position: absolute;
+}
+#middleyear{
+	margin-left: 50px;
+	margin-top: 250px;
+	display: flex;
+	position: absolute;
+}
+#middletime{
+	margin-left: 50px;
+	margin-top: 350px;
+	display: flex;
+	position: absolute;
+}
+#middledir{
+	margin-left: 450px;
+	margin-top: 150px;
+	display: flex;
+	position: absolute;
+}
+#middlecast{
+	margin-left: 450px;
+	margin-top: 250px;
+	display: flex;
+	position: absolute;
+}
+#middlerate{
+	margin-left: 450px;
+	margin-top: 350px;
+	display: flex;
+	position: absolute;
+}
+#middledesp{
+	margin-left: 830px;
+	margin-top: 150px;
+	display: flex;
+	position: absolute;
+}
+#middlegenre{
+	margin-left: 830px;
+	margin-top: 340px;
+	display: flex;
+	position: absolute;
+}
+#middleupload{
+	margin-left: 50px;
+	margin-top: 450px;
+	display: flex;
+	position: absolute;
+}
+#save{
+	margin-left: 650px;
+	margin-top: 450px;
+	display: flex;
+	position: absolute;
+}
+#footer{
+
+    background-color: #E5C500;
+    width: 100%;
+	
+}
+#footpara{
+    color: #000000;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#around{
+    margin-top: -70px;
+    margin-left: 1000px;
+    position: absolute;
+}
+p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #000;
+    background-color: #E5C500;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    border:solid 2px #000;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.social i:hover {
+    color: #000;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
